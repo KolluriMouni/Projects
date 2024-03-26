@@ -6,6 +6,10 @@ import Testing from './Testing';
 // import Testing2 from './testing2';
 import MyState from './MyState';
 // import FunctionalComponent from './FunctionalComponent';
+import ListClass from './ListClass';
+import FragementElement from './FragmentElement'
+import Form from './Form';
+
 
 
 // import class, { Component } from './Component/Class'
@@ -31,14 +35,27 @@ function App1() {
         <a href="https://codegnan.com/">React Js</a>
         {/* Class Js */}
         <p>My Class Js React Js</p>
+
+        <table border="1">
+        <tr ClassName="data">
+          <FragementElement/>
+        </tr>
+        <tr>
+          <FragementElement/>
+        </tr>
+      </table>
         
         <class/>
         {/* My state */}
         <p>MyState Class</p>
         <MyState/> 
+        <ListClass/>
+        <FragementElement/>
+        <Form/>
 
         <Testing/>
         {/* <Testing2/> */}
+        <liste/>
       </header>
     </div>
   )
