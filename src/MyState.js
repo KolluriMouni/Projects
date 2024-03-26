@@ -46,8 +46,8 @@ class MyState extends Component{
 
                 <p>{this.state.name}</p>
                 <p>{this.state.number}</p>
-                {console.log(this.state.number)}
-                {console.log(this.state.mounika)}
+                {/* {console.log(this.state.number)} */}
+                {/* {console.log(this.state.mounika)} */}
                 <p>
                     {/* //state2 start */}
                     Name:{this.state1.mouni[0].Name} add:{this.state1.mouni[0].add} 

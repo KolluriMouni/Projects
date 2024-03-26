@@ -2,7 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import React, { Component } from "react"
 import Class from './components/class';
+import Testing from './Testing';
+// import Testing2 from './testing2';
 import MyState from './MyState';
+// import FunctionalComponent from './FunctionalComponent';
+
 
 // import class, { Component } from './Component/Class'
 function App1() {
@@ -32,6 +36,9 @@ function App1() {
         {/* My state */}
         <p>MyState Class</p>
         <MyState/> 
+
+        <Testing/>
+        {/* <Testing2/> */}
       </header>
     </div>
   )
