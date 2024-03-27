@@ -38,6 +38,18 @@
 }
 
 
-.data{
-  background-color: #61dafb;
+.navbar a{
+  text-decoration: none;
+  font-size: 30px;
+  color: gray;
 }
+.navbar{
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar a:hover{
+  color: yellow;
+  background-color: aqua;
+}
+

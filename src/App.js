@@ -11,12 +11,34 @@ import FragementElement from './FragmentElement'
 import Form from './Form';
 
 
+// import {Browserrouter,Routers,Router} Form 'react-Router-dom';
+import { BrowserRouter as Router, Route, Switch, BrowserRouter, Routes } from 'react-router-dom';
+
+import Home from './components/Home';
+import About from './components/About';
+import Contact from './components/Contact';
+import Navbar from './components/Navbar';
+import NotFound from './components/NotFound';
+
+import Events from './Events';
+
 
 // import class, { Component } from './Component/Class'
 function App1() {
   return (
     <div className="App">
       <header className="App-header">
+        <BrowserRouter>
+        <Navbar/>
+          <Routes>
+              <Route path="/" element={<Home/>} />
+              <Route path="/about" element={<About/>}/>
+              <Route path="/contact" element={<Contact/>}/>
+              <Route path="*" element={<NotFound/>}/>
+          </Routes >
+        </BrowserRouter>
+        
+        <Events/>
     
         <img src={logo} className="App-logo" alt="logo" />
         <p>
