@@ -21,6 +21,7 @@ import Navbar from './components/Navbar';
 import NotFound from './components/NotFound';
 
 import Events from './Events';
+import Events2 from './Events2'
 
 
 // import class, { Component } from './Component/Class'
@@ -39,6 +40,7 @@ function App1() {
         </BrowserRouter>
         
         <Events/>
+        <Events2/>
     
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -74,6 +76,7 @@ function App1() {
         <ListClass/>
         <FragementElement/>
         <Form/>
+      
 
         <Testing/>
         {/* <Testing2/> */}
